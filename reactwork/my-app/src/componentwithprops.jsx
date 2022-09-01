@@ -2,9 +2,9 @@ import Hello from "./props";
 const PropComp = () =>{
     return(
         <>
-        <Hello name ="chris"/>
-        <Hello name ="p."/>
-        <Hello name ="bacon"/>
+        <Hello name ="Harry"/>
+        <Hello name ="Ron"/>
+        <Hello name ="Hermonie"/>
         </>
     );
 }

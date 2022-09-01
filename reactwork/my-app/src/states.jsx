@@ -16,7 +16,7 @@ const Login = () => {
                 type="text" 
                 value={username} 
                 onChange={e => setUsername(e.target.value)}/>
-
+            <br/>
             <label> Password: </label>
                 <input type="password"
                 name="password"

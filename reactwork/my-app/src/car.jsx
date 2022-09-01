@@ -1,15 +1,16 @@
 import {useState} from 'react';
 const Car = () => {
-    const [brand, setBrand] = useState("BMW"); 
-    const [model, setModel] = useState("M4"); 
-    const [colour, setColour] = useState("Blue");
-    const [year, setYear] = useState(2020);
+    const [brand, setBrand] = useState("Toyota"); 
+    const [model, setModel] = useState("Auris"); 
+    const [colour, setColour] = useState("Grey");
+    const [year, setYear] = useState(1992);
 
      return(
          <>
-             <h1>My car is a beauty. </h1>
-             <h4>These are her features:</h4>
-             <p>{brand},{model}</p>
+             <h1>Car in For Repair. </h1>
+             <h4>These are the features:</h4>
+             <p>{brand}</p>
+             <p>{model}</p>
              <p>{colour}</p>
              <p>{year}</p>
 

@@ -1,7 +1,7 @@
 const Hello = props =>{
     return(
         <h1>
-            Hello,{props.name}
+            Hello,{props.name} this hedgewig.
         </h1>
     );
 }
