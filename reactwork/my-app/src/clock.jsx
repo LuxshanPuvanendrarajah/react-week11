@@ -66,7 +66,7 @@ export default class Clock extends Component {
     render() {
         return (
             <div>
-                <h1>{this.state.text}</h1>
+             <h1>What is the time you ask?{this.state.text}</h1>
                 <h2>It is {this.state.date.toLocaleTimeString()}</h2>
                 <button onClick={this.stateHandle}>Changes State</button>
                 <button onClick={this.stateHandle2}>
