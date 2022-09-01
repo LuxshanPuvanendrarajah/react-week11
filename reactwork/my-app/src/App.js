@@ -1,7 +1,9 @@
 
 import './App.css';
+import Header from './header';
 import Footer from './footer';
 import Clock from './clock';
+import Dice from './dice';
 
 function App() {
   const address = {
@@ -13,10 +15,13 @@ function App() {
   return (
     <>
     <div className="App">
-      <p>Hello {address.name}, your city is {address.city} and town is {address.town}</p>
+    <Header/>
+      <h1>Hello {address.name}, your city is {address.city} and town is {address.town}</h1>
       <Clock/>
       <Clock/>
+      <Dice/>
     </div>
+
   
 
 

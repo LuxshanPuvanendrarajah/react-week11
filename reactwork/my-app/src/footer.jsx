@@ -2,7 +2,7 @@ const Footer = () => {
     return (
     <header className="Footer">
     
-        <p> 
+        <h3> 
         
         <a
           className="github-link"
@@ -12,7 +12,7 @@ const Footer = () => {
         >
           github
         </a>
-        </p>
+        </h3>
       
         
 
