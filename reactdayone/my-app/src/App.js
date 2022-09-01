@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Footer from './footer';
+import Clock from './clock';
 
 function App() {
+  const address = {
+    name: "Luxshan",
+    city: "london",
+    town: "Harrow"
+  }
+
   return (
+    <>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p>Hello {address.name}, your city is {address.city} and town is {address.town}</p>
+      <Clock/>
+      <Clock/>
     </div>
-  );
+  
+
+
+
+<Footer/>
+</>
+);
 }
 
 export default App;
