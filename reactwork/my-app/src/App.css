@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  border-style:solid;
+  color:black;
+  background-color: rgb(235, 241, 242);
+  border-color: navy;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding:20px;
+
 }
 
 .App-logo {
@@ -26,6 +34,23 @@
 
 .App-link {
   color: #61dafb;
+}
+body {
+  display:flexbox;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(114, 232, 251);
+  max-width: 80%;
+  margin-left: 10%;
+ }
+ .App-footer{
+  border-style:solid;
+  color:black;
+  background-color: rgb(235, 241, 242);
+  border-color: navy;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding:20px;
 }
 
 @keyframes App-logo-spin {
